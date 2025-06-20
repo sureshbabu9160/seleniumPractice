@@ -7,14 +7,14 @@ public class LoginPage {
     private WebDriver driver;
 
     By userNameField = By.xpath("//*[@id=\"email\"]");
-    By pwdField = By.xpath("//*[@id=\"password\"]");
+    By passwordField = By.xpath("//*[@id=\"password\"]");
     By loginBtn = By.xpath("//*[@id=\"submit\"]");
     public LoginPage(WebDriver driver){
         this.driver=driver;
     }
     public void login(String username, String password){
         driver.findElement(userNameField).sendKeys(username);
-        driver.findElement(pwdField).sendKeys(password);
+        driver.findElement(passwordField).sendKeys(password);
         driver.findElement(loginBtn).click();
     }
 
