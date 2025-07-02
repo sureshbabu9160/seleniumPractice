@@ -12,12 +12,13 @@ public class Hooks {
     @Before
     public void setUp() {
         WebDriverManager.chromedriver().setup();
-        WebDriver driver = new ChromeDriver();
-        DriverFactory.setDriver(driver);
+        WebDriver driver1 = new ChromeDriver();
+        DriverFactory.setDriver(driver1);
     }
 
     @After
     public void tearDown() {
+
         DriverFactory.removeDriver();
     }
 }
