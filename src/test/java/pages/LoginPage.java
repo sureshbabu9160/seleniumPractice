@@ -19,6 +19,6 @@ public class LoginPage {
     }
 
     public boolean isLoginSuccessful() {
-        return driver.getTitle().contains("My Account");
+        return driver.getTitle().contains("My test Account");
     }
 }

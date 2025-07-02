@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 5.961 s <<< FAILURE! -- in runner.TestRunner
+Login functionality.Valid login -- Time elapsed: 5.740 s <<< FAILURE!
+java.lang.AssertionError
+	at stepDefinitions.LoginSteps.user_should_be_redirected_to_dashboard(LoginSteps.java:31)
+	at ✽.user should be redirected to dashboard(file:///C:/Users/SureshPilliSIDGlobal/OneDrive%20-%20SID%20Global%20Solutions/Documents/Downloads/SeleniumCucumber_LoginSerenityGitReady/src/test/resources/features/login.feature:6)
+
